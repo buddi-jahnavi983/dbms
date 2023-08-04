@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <style>
+        header {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(to bottom, rgba(53, 10, 79, .7), rgba(53, 10, 79, .5)), url("Images/bg.jpg"), center no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        .text {
+            transform: translateX(-100rem);
+            animation: slideIn 1.5s forwards;
+        }
+
+        .hero {
+            height: 300px;
+            position: absolute;
+            align-items: center;
+            left: 50%;
+            top: 47%;
+        }
+
+        .main-heading {
+            color: #fff;
+            line-height: 1;
+            text-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.5);
+            margin-bottom: 2.5rem;
+        }
+
+        .title {
+            font-size: 2.9rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .house {
+            font-size: 2.7rem;
+            font-weight: 300;
+            font-family: 'Courgette';
+        }
+
+        .btn {
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: .5rem 3.5rem;
+            border: none;
+            border-radius: 10rem;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .btn-now {
+            color: #fff;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 5px 0px;
+            width: 120px;
+            padding: 10px 5px;
+            border: none;
+            border-radius: 5px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .btn-gradient-now {
+            background-image: linear-gradient(to right, #fa9e2c, #8f50fb);
+        }
+
+        .btn-gradient-now:hover {
+            background-image: linear-gradient(to right, #8f50fb, #fa9e2c);
+        }
+
+        .btn-gradient {
+            background-image: linear-gradient(to right, #fa9e2c, #8f50fb);
+        }
+
+        .btn-gradient:hover {
+            background-image: linear-gradient(to right, #8f50fb, #fa9e2c);
+        }
+
+        @keyframes slideIn {
+            from {}
+
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <div class="text">
+                <div class="main-heading">
+                    <h1 class="title">Time to travel...</h1>
+
+                </div>
+                <a href="#" class="btn btn-gradient">Explore now
+                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                </a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
